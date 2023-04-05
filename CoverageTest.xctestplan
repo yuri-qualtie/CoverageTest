@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "66BE40D8-2264-4121-9E46-0ADF47EF9424",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CoverageTest.xcodeproj",
+      "identifier" : "DAB1B03229DDBF1A00AC8C21",
+      "name" : "CoverageTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CoverageTest.xcodeproj",
+        "identifier" : "DAB1B04329DDBF1B00AC8C21",
+        "name" : "CoverageTestTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CoverageTest.xcodeproj",
+        "identifier" : "DAB1B04D29DDBF1B00AC8C21",
+        "name" : "CoverageTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
